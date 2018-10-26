@@ -5,6 +5,7 @@ public class User {
     private Long id;
     private String name;
     private int age;
+    private String hobby;
 
     public Long getId() {
         return id;
@@ -28,5 +29,13 @@ public class User {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public String getHobby() {
+        return hobby;
+    }
+
+    public void setHobby(String hobby) {
+        this.hobby = hobby;
     }
 }
